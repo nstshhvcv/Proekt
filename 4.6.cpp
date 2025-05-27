@@ -1,0 +1,32 @@
+﻿#include <iostream>
+#include <cmath> 
+
+using namespace std;
+
+int main() {
+    double num1, num2;
+
+    cout << "Введите первое число: ";
+    cin >> num1;
+
+    cout << "Введите второе число: ";
+    cin >> num2;
+
+    
+    if (fabs(num1 - num2) < 1e-10) {
+        cout << "Числа равны (с учётом точности сравнения вещественных чисел)" << endl;
+        return 0;
+    }
+
+    
+    if (num1 > num2) {
+        cout << "а) Первое число (" << num1 << ") больше второго (" << num2 << ")" << endl;
+        cout << "б) Второе число (" << num2 << ") меньше первого (" << num1 << ")" << endl;
+    }
+    else {
+        cout << "а) Второе число (" << num2 << ") больше первого (" << num1 << ")" << endl;
+        cout << "б) Первое число (" << num1 << ") меньше второго (" << num2 << ")" << endl;
+    }
+
+    return 0;
+}
