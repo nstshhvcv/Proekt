@@ -1,4 +1,5 @@
-﻿#include <iostream>
+//Определить, является ли число a делителем числа b?
+#include <iostream>
 
 using namespace std;
 
