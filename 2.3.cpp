@@ -1,4 +1,5 @@
-﻿#include <iostream>
+//Дана масса в килограммах. Найти число полных тонн в ней.
+#include <iostream>
 
 int main() {
     double kilograms;
