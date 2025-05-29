@@ -1,4 +1,5 @@
-﻿#include <iostream>
+//Даны основания и высота равнобедренной трапеции. Найти периметр трапеции.
+#include <iostream>
 #include <cmath> 
 
 int main() {
