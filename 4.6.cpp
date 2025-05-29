@@ -1,4 +1,6 @@
-﻿#include <iostream>
+//Даны два различных вещественных числа. Определить:
+//а) какое из них больше; б) какое из них меньше.
+#include <iostream>
 #include <cmath> 
 
 using namespace std;
